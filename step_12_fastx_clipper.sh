@@ -2,7 +2,7 @@
 #SBATCH --time=02:00:00
 #SBATCH --array=1-11
 #SBATCH --account=def-egreenbl
-#SBATCH --mem=2G
+#SBATCH --mem=8G
 #SBATCH --job-name=clip_ends
 #SBATCH --output=output/%x-%j.out
 #SBATCH --mail-user=keeganfl@student.ubc.ca

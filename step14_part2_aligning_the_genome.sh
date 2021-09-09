@@ -1,6 +1,7 @@
 #!/bin/bash
 #SBATCH --time=02:00:00
 #SBATCH --array=1-4
+#SBATCH --mem=8G
 #SBATCH --account=def-egreenbl
 #SBATCH --job-name=align_genome_p2
 #SBATCH --output=output/%x-%j.out

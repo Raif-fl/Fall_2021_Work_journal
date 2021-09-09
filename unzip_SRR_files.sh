@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --time=02:00:00
 #SBATCH --account=def-egreenbl
-#SBATCH --mem=8G
+#SBATCH --mem=16G
 #SBATCH --job-name=Unzip_SSR
 #SBATCH --output=output/%x-%j.out
 #SBATCH --mail-user=keeganfl@student.ubc.ca

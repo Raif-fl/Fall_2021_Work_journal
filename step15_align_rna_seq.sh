@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --time=00:30:00
+#SBATCH --time=02:00:00
 #SBATCH --array=1-9
 #SBATCH --account=def-egreenbl
 #SBATCH --job-name=Align_rna

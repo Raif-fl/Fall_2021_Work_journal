@@ -14,5 +14,3 @@ commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" count_reads_list)
 
 # Then start the download
 eval $commands
-
-# I am going to need to work a new file system into this, it just cannot do numbers.

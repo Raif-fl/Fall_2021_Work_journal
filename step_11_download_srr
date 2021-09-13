@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --time=01:00:00
+#SBATCH --time=02:00:00
 #SBATCH --mem=1G
-#SBATCH --array=1-23
+#SBATCH --array=1-14
 #SBATCH --account=def-egreenbl
 #SBATCH --job-name=Download_SSR
 #SBATCH --output=output/%x-%j.out

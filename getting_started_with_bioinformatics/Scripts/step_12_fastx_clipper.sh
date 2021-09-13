@@ -16,7 +16,7 @@
 module load fastx-toolkit
 
 echo "Starting task $SLURM_ARRAY_TASK_ID"
-commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" clip_list)
+commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" step_12_clip_list)
 
 # Then start the download
 eval $commands

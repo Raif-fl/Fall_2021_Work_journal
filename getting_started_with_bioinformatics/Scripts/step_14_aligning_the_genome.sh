@@ -14,7 +14,7 @@
 # Commands you wish to run.
 
 echo "Starting task $SLURM_ARRAY_TASK_ID"
-commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" genome_align_list)
+commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" step_14_genome_align_list)
 
 # Then start the download
 eval $commands

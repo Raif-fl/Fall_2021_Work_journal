@@ -11,7 +11,7 @@
 #SBATCH --mail-type=FAIL
 
 echo "Starting task $SLURM_ARRAY_TASK_ID"
-commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" rna_seq_align_list)
+commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" step_15_rna_align_list)
 
 # Then start the download
 eval $commands

@@ -10,7 +10,7 @@
 #SBATCH --mail-type=FAIL
 
 echo "Starting task $SLURM_ARRAY_TASK_ID"
-commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" count_reads_list)
+commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" step_16_count_list)
 
 # Then start the download
 eval $commands

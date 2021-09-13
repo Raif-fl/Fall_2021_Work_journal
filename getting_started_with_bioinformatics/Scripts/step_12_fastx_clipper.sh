@@ -10,7 +10,7 @@
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=FAIL
 
-# File list should contain all of the
+# Command list should contain all of the
 # Commands you wish to run.
 
 module load fastx-toolkit

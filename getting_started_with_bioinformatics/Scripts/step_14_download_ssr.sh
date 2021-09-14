@@ -13,7 +13,7 @@
 # list should contain all of the
 # Commands you wish to run.
 echo "Starting task $SLURM_ARRAY_TASK_ID"
-commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" step_11_command_list)
+commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" step_14_command_list)
 
 # Then execute all of the commands in parrallel.
 eval $commands

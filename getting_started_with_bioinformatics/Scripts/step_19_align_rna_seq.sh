@@ -14,7 +14,7 @@
 # Commands you wish to run.
 
 echo "Starting task $SLURM_ARRAY_TASK_ID"
-commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" step_15_rna_align_list)
+commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" step_19_rna_align_list)
 
 # Then execute all of the commands in parrallel.
 eval $commands

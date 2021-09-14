@@ -1,6 +1,0 @@
-fastx_clipper -Q33 -a AAAAAAAAAAAAAA -l 25 -c -n -v -i SRR7124023.fastq -o control_RPF_1.trimmed.fastq
-fastx_clipper -Q33 -a AAAAAAAAAAAAAA -l 25 -c -n -v -i SRR7124025.fastq -o control_RPF_2.trimmed.fastq
-fastx_clipper -Q33 -a AAAAAAAAAAAAAA -l 25 -c -n -v -i SRR7124027.fastq -o control_RPF_3.trimmed.fastq
-fastx_clipper -Q33 -a AAAAAAAAAAAAAA -l 25 -c -n -v -i SRR7124024.fastq -o Fmr1_RPF_1.trimmed.fastq
-fastx_clipper -Q33 -a AAAAAAAAAAAAAA -l 25 -c -n -v -i SRR7124026.fastq -o Fmr1_RPF_2.trimmed.fastq
-fastx_clipper -Q33 -a AAAAAAAAAAAAAA -l 25 -c -n -v -i SRR7124028.fastq -o Fmr1_RPF_3.trimmed.fastq

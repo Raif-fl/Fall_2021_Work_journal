@@ -1,0 +1,8 @@
+mv SRR7124023.fastq Fmr1_RPF_1.trimmed.fastq
+mv SRR7124027.fastq Fmr1_RPF_3.trimmed.fastq
+mv SRR7124024.fastq control_RPF_1.trimmed.fastq
+mv SRR7124028.fastq control_RPF_3.trimmed.fastq
+mv SRR7124019.fastq control_RNA_3_
+mv SRR7124020.fastq Fmr1_RNA_3_
+mv SRR7124021.fastq control_RNA_4_
+mv SRR7124022.fastq Fmr1_RNA_4_

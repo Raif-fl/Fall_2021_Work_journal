@@ -16,5 +16,5 @@ export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 echo "Starting task $SLURM_ARRAY_TASK_ID"
 commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" step_15_rna_align_list)
 
-# Then start the download
+# Then execute all of the commands in parrallel.
 eval $commands

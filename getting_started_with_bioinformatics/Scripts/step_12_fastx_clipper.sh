@@ -10,7 +10,7 @@
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=FAIL
 
-# Command list should contain all of the
+# list should contain all of the
 # Commands you wish to run.
 
 module load fastx-toolkit
@@ -18,5 +18,5 @@ module load fastx-toolkit
 echo "Starting task $SLURM_ARRAY_TASK_ID"
 commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" step_12_clip_list)
 
-# Then start the download
+# Then execute all of the commands in parrallel.
 eval $commands

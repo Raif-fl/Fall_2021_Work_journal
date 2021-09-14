@@ -1,0 +1,14 @@
+fastq-dump --gzip SRR7124028
+fastq-dump --gzip SRR7124027
+fastq-dump --gzip SRR7124026
+fastq-dump --gzip SRR7124025
+fastq-dump --gzip SRR7124024
+fastq-dump --gzip SRR7124023
+fastq-dump --gzip SRR7124022
+fastq-dump --gzip SRR7124021
+fastq-dump --gzip SRR7124020
+fastq-dump --gzip SRR7124019
+fastq-dump --gzip SRR7124018
+fastq-dump --gzip SRR7124017
+fastq-dump --gzip SRR7124016
+fastq-dump --gzip SRR7124015

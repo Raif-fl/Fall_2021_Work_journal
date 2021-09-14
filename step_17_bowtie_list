@@ -1,0 +1,6 @@
+bowtie2 -L 23 --un=control_RPF_1.norrna.fastq -x $HOME/scratch/genomes/mmus_ncrRNA/mmus_ncrRNA control_RPF_1.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=control_RPF_2.norrna.fastq -x $HOME/scratch/genomes/mmus_ncrRNA/mmus_ncrRNA control_RPF_2.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=control_RPF_3.norrna.fastq -x $HOME/scratch/genomes/mmus_ncrRNA/mmus_ncrRNA control_RPF_3.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=Fmr1_RPF_1.norrna.fastq -x $HOME/scratch/genomes/mmus_ncrRNA/mmus_ncrRNA Fmr1_RPF_1.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=Fmr1_RPF_2.norrna.fastq -x $HOME/scratch/genomes/mmus_ncrRNA/mmus_ncrRNA Fmr1_RPF_2.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=Fmr1_RPF_3.norrna.fastq -x $HOME/scratch/genomes/mmus_ncrRNA/mmus_ncrRNA Fmr1_RPF_3.trimmed.fastq > outputtemp.sam

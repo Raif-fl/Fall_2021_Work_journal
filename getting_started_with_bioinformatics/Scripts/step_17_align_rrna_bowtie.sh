@@ -13,6 +13,8 @@
 # list should contain all of the
 # Commands you wish to run.
 
+module load bowtie2
+
 echo "Starting task $SLURM_ARRAY_TASK_ID"
 commands=$(sed -n "${SLURM_ARRAY_TASK_ID}p" step_17_bowtie_list)
 

@@ -1,7 +1,8 @@
 #!/bin/bash
-#SBATCH --time=02:00:00
+#SBATCH --time=00:30:00
 #SBATCH --array=1-11
-#SBATCH --mem=8G
+#SBATCH --cpus-per-task=9
+#SBATCH --mem=32G
 #SBATCH --account=def-egreenbl
 #SBATCH --job-name=align_genome
 #SBATCH --output=output/%x-%j.out
@@ -9,6 +10,8 @@
 #SBATCH --mail-type=END
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=FAIL
+
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
 # list should contain all of the
 # Commands you wish to run.

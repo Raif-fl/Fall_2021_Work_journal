@@ -81,7 +81,7 @@ maxi=32
 
 # I had to replace all // with / to avoid generating floats from division. 
 
-# Slightly altered the location of peak list in the hopes that it might improve something.
+# Slightly altered 1the location of peak list in the hopes that it might improve something.
 
 # Note that setting python.messages to true is a terrible idea for this one.
 # The output will go on forever. 

@@ -19,5 +19,5 @@ offsets = psite(data = bam_list, start = FALSE, extremity = "3end",
 plastid_offsets = data.frame(length=offsets$length,
                              p_offset=offsets$corrected_offset_from_3)
 
-write.table(plastid_offsets, "/Users/keeganflanagan/Desktop/Khanh_position/control_RPF_2_P_Offsets",sep = "\t" , row.names = FALSE)
+write.table(plastid_offsets, "/Users/keeganflanagan/Desktop/Khanh_position/Fmr1_RPF_2_P_Offsets",sep = "\t" , row.names = FALSE)
 

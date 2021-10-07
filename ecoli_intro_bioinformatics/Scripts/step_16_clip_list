@@ -1,0 +1,15 @@
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734430.fastq -o control_RPF_1.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734431.fastq -o control_RPF_2.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734432.fastq -o efp_RPF_1.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734433.fastq -o efp_RPF_2.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734434.fastq -o epmA_RPF_1.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734435.fastq -o epmB_RPF_1.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734436.fastq -o epmC_RPF_1.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734437.fastq -o control_RPF_3.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734438.fastq -o efp_RPF_3.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734439.fastq -o control_RPF_4.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734440.fastq -o control_RPF_5.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734441.fastq -o efp_RPF_4.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734442.fastq -o epmA_RPF_2.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734443.fastq -o epmB_RPF_2.trimmed.fastq
+fastx_clipper -Q33 -a CTGTAGGCACCATCAAT -l 25 -c -n -v -i SRR1734444.fastq -o epmC_RPF_2.trimmed.fastq

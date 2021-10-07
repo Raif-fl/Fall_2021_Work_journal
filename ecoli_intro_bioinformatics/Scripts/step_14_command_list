@@ -1,0 +1,15 @@
+fastq-dump --gzip SRR1734430
+fastq-dump --gzip SRR1734431
+fastq-dump --gzip SRR1734432
+fastq-dump --gzip SRR1734433
+fastq-dump --gzip SRR1734434
+fastq-dump --gzip SRR1734435
+fastq-dump --gzip SRR1734436
+fastq-dump --gzip SRR1734437
+fastq-dump --gzip SRR1734438
+fastq-dump --gzip SRR1734439
+fastq-dump --gzip SRR1734440
+fastq-dump --gzip SRR1734441
+fastq-dump --gzip SRR1734442
+fastq-dump --gzip SRR1734443
+fastq-dump --gzip SRR1734444

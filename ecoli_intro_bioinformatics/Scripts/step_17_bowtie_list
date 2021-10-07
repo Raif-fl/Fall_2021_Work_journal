@@ -1,0 +1,15 @@
+bowtie2 -L 23 --un=control_RPF_1.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna control_RPF_1.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=control_RPF_2.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna control_RPF_2.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=efp_RPF_1.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna efp_RPF_1.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=efp_RPF_2.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna efp_RPF_2.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=epmA_RPF_1.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna epmA_RPF_1.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=epmB_RPF_1.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna epmB_RPF_1.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=epmC_RPF_1.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna epmC_RPF_1.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=control_RPF_3.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna control_RPF_3.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=efp_RPF_3.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna efp_RPF_3.trimmed.fastq> outputtemp.sam
+bowtie2 -L 23 --un=control_RPF_4.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna control_RPF_4.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=control_RPF_5.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna control_RPF_5.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=efp_RPF_4.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna efp_RPF_4.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=epmA_RPF_2.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna epmA_RPF_2.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=epmB_RPF_2.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna epmB_RPF_2.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=epmC_RPF_2.norrna.fastq -x $HOME/scratch/genomes/ecoli_ncRNA/ecoli_ncrna epmC_RPF_2.trimmed.fastq > outputtemp.sam

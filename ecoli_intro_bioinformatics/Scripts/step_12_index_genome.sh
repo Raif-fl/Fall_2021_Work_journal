@@ -13,4 +13,4 @@
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
 
-STAR --runThreadN 8 --runMode genomeGenerate --genomeDir . --genomeFastaFiles GCF_000005845.2_ASM584v2_genomic.fa --sjdbGTFfile GCF_000005845.2_ASM584v2_genomic.gtf --sjdbOverhang 100 --genomeSAindexNbases 13
+STAR --runThreadN 8 --runMode genomeGenerate --genomeDir . --genomeFastaFiles Escherichia_coli_str_k_12_substr_mg1655_gca_000005845.ASM584v2.dna.toplevel.fa --sjdbGTFfile Escherichia_coli_str_k_12_substr_mg1655_gca_000005845.ASM584v2.51.gtf --sjdbOverhang 100 --genomeSAindexNbases 13

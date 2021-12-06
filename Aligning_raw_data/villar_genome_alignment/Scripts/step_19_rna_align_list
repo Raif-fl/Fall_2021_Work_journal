@@ -1,0 +1,9 @@
+STAR --genomeDir $HOME/scratch/genomes/mouse --runThreadN 8 --readFilesIn SRR3746521 --outFileNamePrefix control_RNA_1_  --outSAMtype BAM SortedByCoordinate  --outSAMunmapped Within  --outSAMattributes Standard
+STAR --genomeDir $HOME/scratch/genomes/mouse --runThreadN 8 --readFilesIn SRR3746522 --outFileNamePrefix control_RNA_2_  --outSAMtype BAM SortedByCoordinate  --outSAMunmapped Within  --outSAMattributes Standard
+STAR --genomeDir $HOME/scratch/genomes/mouse --runThreadN 8 --readFilesIn SRR3746523 --outFileNamePrefix Secisbp_RNA_1_  --outSAMtype BAM SortedByCoordinate  --outSAMunmapped Within  --outSAMattributes Standard
+STAR --genomeDir $HOME/scratch/genomes/mouse --runThreadN 8 --readFilesIn SRR3746524 --outFileNamePrefix Secisbp_RNA_2_  --outSAMtype BAM SortedByCoordinate  --outSAMunmapped Within  --outSAMattributes Standard
+STAR --genomeDir $HOME/scratch/genomes/mouse --runThreadN 8 --readFilesIn SRR3746525 --outFileNamePrefix control_RNA_3_  --outSAMtype BAM SortedByCoordinate  --outSAMunmapped Within  --outSAMattributes Standard
+STAR --genomeDir $HOME/scratch/genomes/mouse --runThreadN 8 --readFilesIn SRR3746526 --outFileNamePrefix control_RNA_4_  --outSAMtype BAM SortedByCoordinate  --outSAMunmapped Within  --outSAMattributes Standard
+STAR --genomeDir $HOME/scratch/genomes/mouse --runThreadN 8 --readFilesIn SRR3746527 --outFileNamePrefix control_RNA_5_  --outSAMtype BAM SortedByCoordinate  --outSAMunmapped Within  --outSAMattributes Standard
+STAR --genomeDir $HOME/scratch/genomes/mouse --runThreadN 8 --readFilesIn SRR3746528 --outFileNamePrefix Trspfl_RNA_1_  --outSAMtype BAM SortedByCoordinate  --outSAMunmapped Within  --outSAMattributes Standard
+STAR --genomeDir $HOME/scratch/genomes/mouse --runThreadN 8 --readFilesIn SRR3746528 --outFileNamePrefix Trspfl_RNA_2_  --outSAMtype BAM SortedByCoordinate  --outSAMunmapped Within  --outSAMattributes Standard

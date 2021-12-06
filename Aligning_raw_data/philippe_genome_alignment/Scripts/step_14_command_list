@@ -1,0 +1,16 @@
+fastq-dump --gzip SRR9295889
+fastq-dump --gzip SRR9295890
+fastq-dump --gzip SRR9295891
+fastq-dump --gzip SRR9295892
+fastq-dump --gzip SRR9295893
+fastq-dump --gzip SRR9295894
+fastq-dump --gzip SRR9295895
+fastq-dump --gzip SRR9295896
+fastq-dump --gzip SRR9295905
+fastq-dump --gzip SRR9295906
+fastq-dump --gzip SRR9295907
+fastq-dump --gzip SRR9295908
+fastq-dump --gzip SRR9295909
+fastq-dump --gzip SRR9295910
+fastq-dump --gzip SRR9295911
+fastq-dump --gzip SRR9295912

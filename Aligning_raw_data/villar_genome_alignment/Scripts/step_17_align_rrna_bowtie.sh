@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --time=00:50:00
+#SBATCH --time=01:50:00
 #SBATCH --array=1-9
 #SBATCH --mem=1G
 #SBATCH --account=def-egreenbl

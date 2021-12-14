@@ -1,8 +1,8 @@
-bowtie2 -L 23 --un=control_RPF_1.norrna.fastq -x $HOME/scratch/genomes/human_ncRNA/human_ncrna control_RPF_1.trimmed.fastq > outputtemp.sam
-bowtie2 -L 23 --un=control_RPF_2.norrna.fastq -x $HOME/scratch/genomes/human_ncRNA/human_ncrna control_RPF_2.trimmed.fastq > outputtemp.sam
-bowtie2 -L 23 --un=control_RPF_3.norrna.fastq -x $HOME/scratch/genomes/human_ncRNA/human_ncrna control_RPF_3.trimmed.fastq > outputtemp.sam
-bowtie2 -L 23 --un=control_RPF_4.norrna.fastq -x $HOME/scratch/genomes/human_ncRNA/human_ncrna control_RPF_4.trimmed.fastq > outputtemp.sam
-bowtie2 -L 23 --un=Larp1_RPF_1.norrna.fastq -x $HOME/scratch/genomes/human_ncRNA/human_ncrna Larp1_RPF_1.trimmed.fastq > outputtemp.sam
-bowtie2 -L 23 --un=Larp1_RPF_2.norrna.fastq -x $HOME/scratch/genomes/human_ncRNA/human_ncrna Larp1_RPF_2.trimmed.fastq > outputtemp.sam
-bowtie2 -L 23 --un=Larp1_RPF_3.norrna.fastq -x $HOME/scratch/genomes/human_ncRNA/human_ncrna Larp1_RPF_3.trimmed.fastq > outputtemp.sam
-bowtie2 -L 23 --un=Larp1_RPF_4.norrna.fastq -x $HOME/scratch/genomes/human_ncRNA/human_ncrna Larp1_RPF_4.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=control_RPF_1.norrna.fastq -x $HOME/scratch/genomes/human_ncrna/human_ncrna control_RPF_1.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=control_RPF_2.norrna.fastq -x $HOME/scratch/genomes/human_ncrna/human_ncrna control_RPF_2.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=control_RPF_3.norrna.fastq -x $HOME/scratch/genomes/human_ncrna/human_ncrna control_RPF_3.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=control_RPF_4.norrna.fastq -x $HOME/scratch/genomes/human_ncrna/human_ncrna control_RPF_4.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=Larp1_RPF_1.norrna.fastq -x $HOME/scratch/genomes/human_ncrna/human_ncrna Larp1_RPF_1.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=Larp1_RPF_2.norrna.fastq -x $HOME/scratch/genomes/human_ncrna/human_ncrna Larp1_RPF_2.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=Larp1_RPF_3.norrna.fastq -x $HOME/scratch/genomes/human_ncrna/human_ncrna Larp1_RPF_3.trimmed.fastq > outputtemp.sam
+bowtie2 -L 23 --un=Larp1_RPF_4.norrna.fastq -x $HOME/scratch/genomes/human_ncrna/human_ncrna Larp1_RPF_4.trimmed.fastq > outputtemp.sam

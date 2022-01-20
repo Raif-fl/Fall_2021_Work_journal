@@ -2,16 +2,16 @@
 library(riboWaltz)
 
 # Load in the fly GTF annotation file
-df = create_annotation(gtfpath = "/home/keeganfl/Desktop/Work_Fall_2021/genomes_&_samples/human/hg38.refGene.gtf")
+df2 = create_annotation(gtfpath = "/home/keeganfl/Desktop/Work_Fall_2021/genomes_&_samples/human/hg38.refGene.gtf")
 # Ribowalts requires a file that has been aligned to the transcriptome rather than 
 # a file that has been aligned to the genome. 
 
 # Load up bam_list from transcriptome
-bam_list = bamtolist("/home/keeganfl/Desktop/Work_Fall_2021/genomes_&_samples/tra_human",
-                     annotation = df)
+bam_list2 = bamtolist("/home/keeganfl/Desktop/Work_Fall_2021/genomes_&_samples/tra_human",
+                     annotation = df2)
 
 # Calculate P_site offset
-offsets = psite(data = bam_list, start = FALSE, extremity = "3end",
+offsets2 = psite(data = bam_list2, start = FALSE, extremity = "3end",
                 plot = TRUE, plot_dir = "/home/keeganfl/Desktop/Work_Fall_2021/data_tables/p-site_offsets/human")
 
 # Filter the offsets dataframe to only include the information needed by plastid. 

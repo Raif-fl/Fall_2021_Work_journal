@@ -2,7 +2,7 @@
 library(riboWaltz)
 
 # Load in the fly GTF annotation file
-df = create_annotation(gtfpath = "/home/keeganfl/Desktop/Work_Fall_2021/genomes_&_samples/ecol/Escherichia_coli_str_k_12_substr_mg1655_gca_000005845.ASM584v2.51.gtf")
+df = create_annotation(gtfpath = "/home/keeganfl/Desktop/Work_Fall_2021/genomes_&_samples/ecol/Escherichia_coli_str_k_12_substr_mg1655.GCA_000005845.1.21.gtf")
 # Ribowalts requires a file that has been aligned to the transcriptome rather than 
 # a file that has been aligned to the genome. 
 

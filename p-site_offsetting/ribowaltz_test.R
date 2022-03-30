@@ -15,10 +15,10 @@ offsets2 = psite(data = bam_list2, start = FALSE, extremity = "3end",
                 plot = TRUE, plot_dir = "/home/keeganfl/Desktop/Work_Fall_2021/data_tables/p-site_offsets/human")
 
 # Filter the offsets dataframe to only include the information needed by plastid. 
-samples = unique(offsets$sample)
+samples = unique(offsets2$sample)
 
 for (i in 1:length(samples)) {
-  sam_offs = subset(offsets, sample == samples[i], 
+  sam_offs = subset(offsets2, sample == samples[i], 
                     select = c('length', 'corrected_offset_from_3'))
   colnames(sam_offs) = c('length', 'p_offset')
   write.table(sam_offs, paste("/home/keeganfl/Desktop/Work_Fall_2021/data_tables/p-site_offsets/human/",
